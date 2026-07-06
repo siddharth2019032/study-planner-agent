@@ -37,6 +37,12 @@
 
 ---
 
+## 📐 Architecture
+
+![Workflow Architecture Diagram](images/workflow_architecture.png)
+
+---
+
 ## 📂 Project Structure
 
 ```
