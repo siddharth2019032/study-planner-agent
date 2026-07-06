@@ -54,6 +54,8 @@ study-planner/
 ├── images/
 │   ├── demo1.png
 │   └── demo2.png
+│   └── banner.jpeg
+│   └── workflow_architecture.png
 ├── README.md
 └── pyproject.toml
 ```
