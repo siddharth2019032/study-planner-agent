@@ -1,6 +1,6 @@
 # 📚 Study Planner Agent
 
-An AI-powered Study Planner Agent built using Google's Agent Development Kit (ADK). The agent creates personalized study schedules based on a student's class, subjects, goals, and available study time.
+![Study Planner Banner](images/banner.png)
 
 ---
 
