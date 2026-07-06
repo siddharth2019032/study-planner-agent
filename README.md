@@ -1,94 +1,106 @@
-# study-planner
+# 📚 Study Planner Agent
 
-Simple ReAct agent
-Agent generated with `agents-cli` version `1.0.0`
+An AI-powered Study Planner Agent built using Google's Agent Development Kit (ADK). The agent creates personalized study schedules based on a student's class, subjects, goals, and available study time.
 
-## Project Structure
+---
+
+## 🚀 Features
+
+- 🤖 AI-generated personalized study plans
+- 📅 Daily study timetable generation
+- 📖 Subject-wise task planning
+- ⭐ Priority-based scheduling
+- 📝 Revision and backlog planning
+- 💬 Interactive chat interface
+
+---
+
+## 📸 Demo
+
+### Study Plan Generated
+
+![Study Planner Demo](images/demo1.png)
+
+### Study Plan Output
+
+![Study Planner Output](images/demo2.png)
+
+---
+
+## 🛠 Tech Stack
+
+- Python
+- Google ADK
+- FastAPI
+- Agents CLI
+- Git & GitHub
+
+---
+
+## 📂 Project Structure
 
 ```
 study-planner/
-├── app/         # Core agent code
-│   ├── agent.py               # Main agent logic
-│   ├── fast_api_app.py        # FastAPI Backend server
-│   └── app_utils/             # App utilities and helpers
-├── tests/                     # Unit, integration, and load tests
-├── GEMINI.md                  # AI-assisted development guide
-└── pyproject.toml             # Project dependencies
+│
+├── app/
+├── tests/
+├── deployment/
+├── images/
+│   ├── demo1.png
+│   └── demo2.png
+├── README.md
+└── pyproject.toml
 ```
 
-> 💡 **Tip:** Use [Antigravity CLI](https://antigravity.google/) for AI-assisted development - project context is pre-configured in `GEMINI.md`.
+---
 
-## Requirements
+## ⚙️ Installation
 
-Before you begin, ensure you have:
-- **uv**: Python package manager (used for all dependency management in this project) - [Install](https://docs.astral.sh/uv/getting-started/installation/) ([add packages](https://docs.astral.sh/uv/concepts/dependencies/) with `uv add <package>`)
-- **agents-cli**: Agents CLI - Install with `uv tool install google-agents-cli`
-- **Google Cloud SDK**: For GCP services - [Install](https://cloud.google.com/sdk/docs/install)
-
-
-## Quick Start
-
-Install `agents-cli` and its skills if not already installed:
+Clone the repository
 
 ```bash
-uvx google-agents-cli setup
+git clone https://github.com/siddharth2019032/study-planner-agent.git
 ```
 
-Install required packages:
+Move into the project
+
+```bash
+cd study-planner-agent
+```
+
+Install dependencies
 
 ```bash
 agents-cli install
 ```
 
-Test the agent with a local web server:
+Run the project
 
 ```bash
 agents-cli playground
 ```
 
-You can also use features from the [ADK](https://adk.dev/) CLI with `uv run adk`.
+---
 
-## Commands
+## 🎯 Future Improvements
 
-| Command              | Description                                                                                 |
-| -------------------- | ------------------------------------------------------------------------------------------- |
-| `agents-cli install` | Install dependencies using uv                                                         |
-| `agents-cli playground` | Launch local development environment                                                  |
-| `agents-cli lint`    | Run code quality checks                                                               |
-| `agents-cli eval`    | Evaluate agent behavior (generate, grade, analyze, and more — see `agents-cli eval --help`) |
-| `uv run pytest tests/unit tests/integration` | Run unit and integration tests                                                        |
-| `agents-cli deploy`  | Deploy agent to Agent Runtime                                                                |
-| `agents-cli publish gemini-enterprise` | Register deployed agent to Gemini Enterprise                    || [A2A Inspector](https://github.com/a2aproject/a2a-inspector) | Launch A2A Protocol Inspector                                                        |
-
-## 🛠️ Project Management
-
-| Command | What It Does |
-|---------|--------------|
-| `agents-cli scaffold enhance` | Add CI/CD pipelines and Terraform infrastructure |
-| `agents-cli infra cicd` | One-command setup of entire CI/CD pipeline + infrastructure |
-| `agents-cli scaffold upgrade` | Auto-upgrade to latest version while preserving customizations |
+- Calendar Integration
+- Reminder Notifications
+- PDF Export
+- Progress Tracking
+- Mobile Friendly UI
 
 ---
 
-## Development
+## 👨‍💻 Author
 
-Edit your agent logic in `app/agent.py` and test with `agents-cli playground` - it auto-reloads on save.
+**Siddharth Gautam**
 
-## Deployment
+B.Tech Electrical Engineering  
+Delhi Technological University (DTU)
 
-```bash
-gcloud config set project <your-project-id>
-agents-cli deploy
-```
+---
 
-To add CI/CD and Terraform, run `agents-cli scaffold enhance`.
-To set up your production infrastructure, run `agents-cli infra cicd`.
+## ⭐ If you like this project
 
-## Observability
-
-Built-in telemetry exports to Cloud Trace, BigQuery, and Cloud Logging.
-
-## A2A Inspector
-
-This agent supports the [A2A Protocol](https://a2a-protocol.org/). Use the [A2A Inspector](https://github.com/a2aproject/a2a-inspector) to test interoperability.
-See the [A2A Inspector docs](https://github.com/a2aproject/a2a-inspector) for details.
+Please consider giving this repository a ⭐ on GitHub.
