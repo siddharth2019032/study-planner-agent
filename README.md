@@ -17,11 +17,11 @@ An AI-powered Study Planner Agent built using Google's Agent Development Kit (AD
 
 ## 📸 Demo
 
-### Study Plan Generated
+### Study Plan
 
 ![Study Planner Demo](images/demo1.png)
 
-### Study Plan Output
+
 
 ![Study Planner Output](images/demo2.png)
 
