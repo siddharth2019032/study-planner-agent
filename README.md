@@ -1,6 +1,6 @@
 # 📚 Study Planner Agent
 
-![Study Planner Banner](images/banner.png)
+![Study Planner Banner](images/banner.jpeg)
 
 ---
 
